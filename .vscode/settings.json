@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/d442a9d2-bedc-46d6-a3b3-251857e0e2ee/AppServices/subscriptions/d442a9d2-bedc-46d6-a3b3-251857e0e2ee/resourceGroups/ISchedule-backend-server_group/providers/Microsoft.Web/sites/ISchedule-backend-server",
+  "appService.deploySubpath": "."
+}

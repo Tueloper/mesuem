@@ -1,0 +1,27 @@
+{
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": {
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_PARENT_APP_NAME": {
+      "required": true
+    },
+    "SECRET": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "name": "Bulkbreakers-Order-Taking-Backend",
+  "repository": "https://github.com/CommercialTech-ABInBev/Bulkbreakers-Order-Taking.git",
+  "scripts": {},
+  "stack": "heroku-18"
+}
