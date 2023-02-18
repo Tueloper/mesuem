@@ -254,15 +254,16 @@ const AdminController = {
           }
         ],
         order: [
-          ['updatedAt', 'Desc']
+          ['createdAt', 'Desc']
         ],
-        where: { id: req.query.id || {} }
-      }).map((values) => values.get({ plain: true }));
+        where: req.query.id ? { id: req.query.id } : {}
+      });
 
       return res.status(201).send(
         artefacts
       );
     } catch (error) {
+      console.error(error);
       errorResponse(res, {});
     }
   },
